@@ -1,0 +1,210 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li{
+    list-style: none;
+}
+
+nav {
+   padding: 3rem 3rem; 
+   background-color: #171642;
+   width: 20rem;
+   height: 100vh;
+   
+}
+
+nav img {
+    margin: 2rem;
+    margin-bottom: 5rem;
+    width: 9rem;
+}
+
+nav ul li {
+    color: #dddddd9f;
+    margin-bottom: 2rem;
+    font-weight: bolder;
+    font-size: 1.4rem;
+}
+
+nav ul li:first-child{
+    color: white;
+}
+
+.flex{
+    display: flex;
+}
+
+.space{
+    justify-content: space-between;
+}
+
+section{
+    padding:3rem 2rem;
+    width: 100%;
+}
+
+section h1{
+    font-size: 3rem;
+    font-weight: 900;
+    color: #595959;
+}
+
+section .right i{
+    font-size: 2rem;
+    margin: 1rem 0;
+    margin-left: 1.5rem;
+    color: #8D8D8D;
+}
+
+.right img{
+    border-radius: 50%;
+    width: 3rem;
+    margin: 0.6rem 0;
+}
+
+.details{
+    margin: 0.8rem 0;
+    padding: 0 0.8rem;
+    border-right: solid rgb(219, 219, 219) 2px;
+}
+
+.details p{
+    font-size: 0.5rem;
+}
+
+.details h4 {
+    font-size: 1.3rem;
+}
+
+.background{
+    margin-top: 3rem;
+    background-color: #F7F7F7;
+    width: 100%;
+    border-radius: 2rem;
+    padding: 3rem;
+    min-width: 73rem;
+}
+
+.card{
+    box-shadow: 0px 0px 15px rgb(231, 231, 231);
+    border-radius: 1.5rem;
+    width: 40rem;
+    margin-bottom: 2rem;
+    background-color: white;
+    color:#8D8D8D;
+    font-size: 1.4rem;
+}
+
+.card i{
+    color: #214792;
+}
+
+.padding{
+    padding: 1.5rem 2rem;   
+}
+
+.shorter{
+    width: 25rem;
+}
+
+
+.shorter .card-lower{
+    padding: 0.2rem 2;
+}
+
+
+.card-upper{
+    border-radius: 1.5rem 1.5rem 0 0;
+    background-color: white;
+    padding: 1.5rem 2rem;
+    font-size: 1.4rem;
+    color: #8D8D8D;
+    font-weight: 900;
+    border-bottom: 1px rgb(233, 233, 233) solid;
+}
+
+.card-upper input{
+    border-radius: 1.5rem;
+    border: 1px solid #8D8D8D11 ;
+    padding: 0.6rem 0.8rem;
+    background: #8D8D8D11;
+    margin-top: 0.5rem;
+    width: 100%;
+}
+
+.card-upper input:focus{
+    outline: none;
+}
+
+.card-lower{
+    padding: 1.5rem 2rem; 
+    border-radius: 0 0 1.5rem 1.5rem;
+    background: white;
+    color: #8D8D8D;  
+}
+
+.card-lower .scrollable{
+    height: 15rem;
+    overflow-x: auto;
+    color: rgb(36, 36, 36);
+}
+
+
+.scrollable p{
+    font-size: 0.8rem;
+}
+
+.scrollable #circle{
+    border-radius: 50%;
+    width:3rem;
+    height: 3rem;
+}
+
+.scrollable .flex{
+    padding: 0.5rem 0;
+    border-bottom: 1px rgb(187, 187, 187) solid;
+}
+
+
+
+.card-lower .flex img{
+    border-radius: 50%;
+    width: 7rem;
+    height: 7rem;
+    margin-right: 1.5rem;
+}
+
+.professor-details h4{
+    font-size: 1.5rem;
+    
+}
+
+#with-divider {
+    border-bottom: solid 1px grey;
+    padding-bottom: 0.3rem;
+}
+
+.professor-details p {
+    font-size: 0.8rem;
+    margin-top: 0.4rem;
+    font-weight:600;
+}
+
+.professor-details button {
+    border-radius: 1rem;
+    border: none;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #214792;
+    color: white;
+    font-size: 0.7rem;
+    font-weight: bold;
+}
+
+
+
+
